@@ -10,7 +10,7 @@ You can now run:
 MACHINE=rpi4-elts
   bitbake elts-image
   bitbake elts-image -c populate_sdk
-  elts-update-bundle
+  bitbake elts-update-bundle
 
 MACHINE=zynq-generic
   bitbake petalinux-image-minimal
