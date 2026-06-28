@@ -15,3 +15,7 @@ MACHINE=rpi4-schneios
 
 MACHINE=zynq-generic
   bitbake petalinux-image-minimal
+
+Changing configuration:
+bitbake -c menuconfig virtual/kernel
+bitbake -c diffconfig virtual/kernel
