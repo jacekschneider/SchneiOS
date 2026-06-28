@@ -8,10 +8,10 @@
                            
 You can now run: 
 
-MACHINE=rpi4-elts
-  bitbake elts-image
-  bitbake elts-image -c populate_sdk
-  bitbake elts-update-bundle
+MACHINE=rpi4-schneios
+  bitbake schneios-image
+  bitbake schneios-image -c populate_sdk
+  bitbake schneios-update-bundle
 
 MACHINE=zynq-generic
   bitbake petalinux-image-minimal
