@@ -1,6 +1,3 @@
-[submodule "layers/meta-elts"]
-	path = layers/meta-elts
-	url = https://github.com/jacekschneider/meta-elts.git
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
@@ -22,3 +19,6 @@
 [submodule "layers/meta-rauc"]
 	path = layers/meta-rauc
 	url = https://github.com/rauc/meta-rauc.git
+[submodule "layers/meta-schneios"]
+	path = layers/meta-schneios
+	url = https://github.com/jacekschneider/meta-schneios.git
