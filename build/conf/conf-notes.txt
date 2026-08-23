@@ -13,8 +13,9 @@ MACHINE=rpi4-schneios
   bitbake schneios-image -c populate_sdk
   bitbake schneios-update-bundle
 
-MACHINE=zynq-generic
+MACHINE=zynq-generic-schneios
   bitbake petalinux-image-minimal
+  bitbake schneios-zynq-fitimage
 
 Changing configuration:
 bitbake -c menuconfig virtual/kernel
