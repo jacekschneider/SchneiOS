@@ -9,13 +9,13 @@
 You can now run: 
 
 MACHINE=rpi4-schneios
-  bitbake schneios-image
-  bitbake schneios-image -c populate_sdk
+  bitbake schneios-image-core
+  bitbake schneios-image-core -c populate_sdk
   bitbake schneios-update-bundle
 
 MACHINE=zynq-generic-schneios
-  bitbake petalinux-image-minimal
-  bitbake schneios-zynq-fitimage
+  bitbake schnioes-image-zynq
+  bitbake schneios-fitimage-zynq
 
 Changing configuration:
 bitbake -c menuconfig virtual/kernel
