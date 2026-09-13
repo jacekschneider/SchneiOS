@@ -16,6 +16,7 @@ MACHINE=rpi4-schneios
 MACHINE=zynq-generic-schneios
   bitbake schnioes-image-zynq
   bitbake schneios-fitimage-zynq
+  bitbake mc:fsbl-fw:fsbl-firmware
 
 Changing configuration:
 bitbake -c menuconfig virtual/kernel
