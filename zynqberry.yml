@@ -55,10 +55,10 @@ repos:
       meta-xilinx-standalone: 
   meta-raspberrypi:
     url: https://github.com/agherzan/meta-raspberrypi.git
-    commit: 38da0e5866a953e664001ba90b5edad68d68cd5d  
+    commit: f62c67921474370829d24a4fa01ef88543f3906b  
     path: sources/meta-raspberrypi
     layers:
-      .::
+      .:
   meta-schneios:
     url: https://github.com/jacekschneider/meta-schneios.git
     commit: 904601c76ea35b4167eb115523b99e6644b00130  
