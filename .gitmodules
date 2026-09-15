@@ -1,30 +1,6 @@
-[submodule "layers/meta-raspberrypi"]
-	path = layers/meta-raspberrypi
-	url = https://github.com/agherzan/meta-raspberrypi.git
-[submodule "layers/meta-xilinx"]
-	path = layers/meta-xilinx
-	url = https://github.com/Xilinx/meta-xilinx.git
-[submodule "layers/meta-arm"]
-	path = layers/meta-arm
-	url = https://github.com/jonmason/meta-arm.git
 [submodule "TE0726-04-41C94-A-prebuilt"]
 	path = TE0726-04-41C94-A-prebuilt
 	url = https://github.com/jacekschneider/TE0726-04-41C94-A-prebuilt.git
-[submodule "layers/meta-rauc"]
-	path = layers/meta-rauc
-	url = https://github.com/rauc/meta-rauc.git
-[submodule "layers/meta-schneios"]
-	path = layers/meta-schneios
-	url = https://github.com/jacekschneider/meta-schneios.git
-[submodule "layers/openembedded-core"]
-	path = layers/openembedded-core
-	url = https://github.com/openembedded/openembedded-core.git
-[submodule "layers/meta-yocto"]
-	path = layers/meta-yocto
-	url = https://github.com/yoctoproject/meta-yocto.git
-[submodule "layers/meta-openembedded"]
-	path = layers/meta-openembedded
-	url = https://github.com/openembedded/meta-openembedded.git
-[submodule "layers/bitbake"]
-	path = layers/bitbake
-	url = https://github.com/openembedded/bitbake.git
+[submodule "kas"]
+	path = kas
+	url = https://github.com/siemens/kas.git

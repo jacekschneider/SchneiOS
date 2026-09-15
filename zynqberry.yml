@@ -1,0 +1,67 @@
+header:
+  version: 19
+
+machine: zynq-generic-schneios
+distro: schneios
+target: schneios-fitimage-zynq
+repos:
+  bitbake:
+    url: https://github.com/openembedded/bitbake.git
+    commit: f56f63b89c02adfa0289a197f8eac2ed7054ca2f
+    path: sources/bitbake
+    layers: {}
+  meta-arm:
+    url: https://github.com/jonmason/meta-arm.git
+    commit: 0979b80429099f1a42dc0026c8c466cee780bc74
+    path: sources/meta-arm
+    layers:
+      meta-arm:
+      meta-arm-toolchain:
+  meta-openembedded:
+    url: https://github.com/openembedded/meta-openembedded.git
+    commit: 6bf0d8ad57b33950bab4c7f6c037e1ccb6f6e2eb
+    path: sources/meta-openambedded
+    layers:
+      meta-oe:
+      meta-python:
+      meta-networking:
+      meta-filesystems:
+      meta-multimedia:
+  openembedded-core:
+    url: https://github.com/openembedded/openembedded-core.git
+    commit: f09a0f28aeb54ddd90415dd458338e1565bb5a49
+    path: sources/openembedded-core
+    layers:
+      meta:
+  meta-yocto:
+    url: https://github.com/yoctoproject/meta-yocto.git
+    commit: 1b132647002eea43a2c7a7f857f63f42dacbc26c
+    path: sources/meta-yocto
+    layers:
+      meta-poky:
+      meta-yocto-bsp:
+  meta-rauc:
+    url: https://github.com/rauc/meta-rauc.git
+    commit: 38da0e5866a953e664001ba90b5edad68d68cd5d 
+    path: sources/meta-rauc
+    layers:
+      .:
+  meta-xilinx:
+    url: https://github.com/Xilinx/meta-xilinx.git
+    commit: 7cfc9d562d33764032eb69980b2f54c9c0c7060a  
+    path: sources/meta-xilinx
+    layers:
+      meta-xilinx-core:
+      meta-xilinx-standalone: 
+  meta-raspberrypi:
+    url: https://github.com/agherzan/meta-raspberrypi.git
+    commit: 38da0e5866a953e664001ba90b5edad68d68cd5d  
+    path: sources/meta-raspberrypi
+    layers:
+      .::
+  meta-schneios:
+    url: https://github.com/jacekschneider/meta-schneios.git
+    commit: 904601c76ea35b4167eb115523b99e6644b00130  
+    path: sources/meta-schneios
+    layers:
+      .:
